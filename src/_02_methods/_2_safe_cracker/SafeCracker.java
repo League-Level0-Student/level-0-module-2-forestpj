@@ -28,8 +28,13 @@ public class SafeCracker {
 		/*
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
-		 */		
+		 */		int number = 9999899;
+		 int add = 1;
+		for (int i = 0;i < 99; i++) {
+		number = number + add;
+		tryCode(number);
 
+		}
 	}
 
 	 void tryCode(int guess) {
