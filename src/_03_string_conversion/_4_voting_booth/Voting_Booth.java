@@ -22,6 +22,7 @@ public class Voting_Booth {
 	    }
 		
 		
+	    
 		
 		
 		
